@@ -1,5 +1,6 @@
 mod window;
-mod custom_button;
+mod task_object;
+mod task_row;
 
 use gtk::prelude::*;
 use gtk::{glib, Application, Box, Switch, Align, Orientation, Button, gio, SignalListItemFactory, Label, ListItem, SingleSelection, ListView, PolicyType, ScrolledWindow, Widget, CustomFilter, FilterListModel, SortListModel, CustomSorter, FilterChange, SorterChange, StringList, StringObject, NoSelection};
